@@ -1,0 +1,122 @@
+
+body,h2{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.landing{
+    background-image: url("../media/landing.JPG");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #FEFEFF
+}
+header a{
+    text-decoration: none;
+    color:#FED18C;
+    min-width: 150px;
+}
+header{
+    display: flex;
+    padding: 3em;
+    flex-wrap: wrap;
+    grid-row-gap: 1em;
+}
+#logo{
+    flex:3;
+    font-size: 1.75em;
+}
+nav{
+    flex:2;
+    display:flex;
+}
+nav a{
+    flex:1
+
+}
+nav a:hover{
+    color: #D6EFFF;
+}
+.maintext{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    padding: 2em;
+}
+.tagline1{
+    color:#FE654F;
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+.tagline2{
+    color:#FED18C;
+}
+.maintext div{
+    margin-top: .75em;
+}
+.maintext button{
+    width:20vh;
+    margin-top: 2em;
+    border-radius: 10px;
+    padding: .7em;
+    background-color: #D6EFFF;
+    border: 1px solid #D6EFFF;
+}
+.menu{
+    display:grid;
+    background:linear-gradient(to right,rgb(61, 57, 57),rgb(41, 37, 37));
+    color: #FEFEFF;
+    grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
+
+}
+#menuheading,#locheading{
+    background:linear-gradient(to right,rgb(61, 57,57),rgb(41, 37, 37));
+
+    font-size: 2.5em;
+    color: #FE654F;
+    display: flex;
+    justify-content: center;
+}
+.menu th{
+    color: #D6EFFF;
+    font-size: 1.8em;
+}
+table{
+    width:100%;
+    padding: 1em;
+}
+.menu tr{
+    display: flex;
+    justify-content: center;
+    margin-top: .8em;
+}
+.menu td:nth-child(1){
+    flex:1;
+    justify-self:left;
+}
+.menu td:nth-child(2){
+    justify-self:right;
+}
+.maincourse{
+    grid-row: span 2;
+}
+.locations{
+    background:linear-gradient(to right,rgb(61, 57,57),rgb(41, 37, 37));
+    color: #FEFEFF;
+    display: flex;
+    flex-wrap: wrap;
+}
+.locations h2{
+    color: #D6EFFF;
+    margin-bottom: .8em;
+}
+.locations div{
+    flex: 1;
+    padding: 1em;
+    min-width: 220px;
+}
+footer{
+    background:linear-gradient(to right,rgb(47, 44, 44),rgb(23, 21, 21));
+    color: #FEFEFF;
+    padding: .25em 1em;
+}
